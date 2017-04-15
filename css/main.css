@@ -1,0 +1,451 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/*Navigation bar*/
+
+nav {
+    font-family: 'Titillium Web', sans-serif;
+    background-color: rgb(53, 45, 47);
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    overflow: hidden;
+    
+}
+
+/*METRO logo part*/
+
+.logo {
+    background-color: rgb(246, 60, 60);
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 9px 10px 10px;
+    text-align: center;
+    position: relative;
+    left: 120px;
+}
+
+.logo span {
+    display: inline-block;
+    padding: 0;
+}
+
+a.logo span:first-child {
+    position: relative;
+    left: 3px;
+    top: -5px;
+}
+
+a.logo span:last-child {
+    position: relative;
+    top: -10px;
+}
+
+nav ul {
+    float: right;
+    list-style-type: none;
+    position: relative;
+    right: 120px;
+}
+
+nav li {
+    display: inline-block;
+}
+
+#underlined {
+    padding: 12px;
+    border-bottom: 2px solid white;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    cursor: pointer;
+}
+
+header {
+    background-color: rgb(53, 45, 47);
+    height: 500px;
+}
+
+header h1 {
+    font-family: 'Teko', sans-serif;
+    color: white;
+    font-size: 80px;
+    text-align: center;
+    line-height: 80px;
+    letter-spacing: 10px;
+    position: relative;
+    top: 80px;
+}
+
+header button {
+    position: relative;
+    left: 650px;
+    top: 150px;
+    color: white;
+    background-color: rgb(53, 45, 47);
+    padding: 10px;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+header .fa-angle-double-down {
+    position: relative;
+    left: 570px;
+    top: 230px;
+    color: white;
+    font-size: 30px;
+}
+
+header p {
+    color: white;
+    font-family: 'Teko', sans-serif;
+    display: inline-block;
+    position: relative;
+    left: 520px;
+    top: 250px;
+    background-color: dimgrey;
+}
+
+.explore {
+    text-align: center;
+    height: 200px   
+}
+
+.explore h2 {
+    font-family: 'Teko', sans-serif;
+    font-size: 30px;
+    letter-spacing: 5px;
+    padding-top: 25px
+}
+
+.explore button {
+    color: white;
+    background-color: rgb(246, 60, 60);
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.featured {
+    font-family: 'Teko', sans-serif;
+}
+
+.featured .red {
+    display: inline-block;
+    width: 50%;
+    background-color: rgb(246, 60, 60);
+    height: 500px;      
+}
+
+.red h3 {
+    color: white;
+    font-size: 14px;
+    letter-spacing: 1px;
+    padding: 300px 0 20px 70px;
+    margin-right: 0;
+}
+
+.red h4, .model h4, .curiosity h4 {
+    color: white;
+    font-size: 30px;
+    letter-spacing: 2px;
+    padding-left: 70px;
+    margin-right: 0;
+    padding-right: 0;
+}
+
+.red p, .model p, .curiosity p {
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 12px;
+    padding-left: 70px;
+    margin-right: 0;
+    padding-right: 0;
+}
+
+.model {
+    float: right;
+    width: 50%;
+    height: 250px;
+    background-color: rgb(53, 45, 47);
+    margin-bottom: 0;
+    padding-bottom: 0:
+    
+}
+
+.model h4 {
+    padding-top: 100px;
+}
+
+.curiosity {
+    float: right;
+    width: 50%;
+    height: 250px;
+    position: relative;
+    top: -250px;
+    background-color: rgb(48, 40, 42)
+}
+
+.curiosity h4 {
+    padding-top: 100px;
+}
+
+.showmore {
+    height: 50px;
+    background-color: rgb(48, 40, 42);
+    margin-bottom: 0;
+}
+
+.showmore a {
+    display: inline-block;
+    position: relative;
+    left: 670px;
+    color: white;
+    padding: 7px;
+    text-decoration: none;
+    font-size: 13px;
+    border-bottom: 3px solid white;
+    margin-bottom: 0;
+}
+
+.moreitems {
+    margin: 0;
+    height: 500px;
+    
+}
+
+.theme, .material {
+    width: 50%;
+    height: 250px;
+}
+
+.theme i {
+    color: rgb(246, 60, 60);
+    font-size: 35px;
+    padding: 60px 0 5px 130px;
+}
+
+.theme h5 {
+    padding-left: 130px;
+    padding-right: 0;
+    font-family: 'Teko', sans-serif;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.theme p {
+    padding-left: 130px;
+    font-family: 'Titillium Web', sans-serif;
+    line-height: 13px;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+}
+
+.material {
+    float: right;
+    position: relative;
+    top: -250px;
+}
+
+.material i {
+    color: rgb(246, 60, 60);
+    font-size: 35px;
+    padding: 60px 0 5px 50px;
+}
+
+.material h5 {
+    padding-left: 50px;
+    padding-right: 0;
+    font-family: 'Teko', sans-serif;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.material p {
+    padding-left: 50px;
+    font-family: 'Titillium Web', sans-serif;
+    line-height: 13px;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+}
+
+.connected h5 {
+    padding-left: 130px;
+    font-family: 'Teko', sans-serif;
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+.connected p {
+    padding-left: 130px;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 13px;
+    
+}
+
+.social {
+    float: left;
+    position: relative;
+    top: -170px;
+    padding-left: 130px;
+}
+
+.social a {
+    text-decoration: none;
+    display: inline-block;
+    background-color: rgb(48, 40, 42);
+    color: white;
+    width: 240px;
+    height: 140px;
+    margin-right: 20px;    
+}
+
+.social i {
+    font-size: 30px;
+    position: relative;
+    left: 110px;
+    top: 40px;
+}
+
+.social p {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.address {
+    background-color: rgb(48, 40, 42);
+    height: 500px;
+}
+
+.info {
+    text-align: cneter;
+    background-color: rgb(246, 60, 60);
+    width: 30%;
+    margin: 0 auto;
+    position: relative;
+    top: 150px;
+    height: 250px;
+}
+
+.info i {
+    color: white;
+    font-size: 35px;
+    position: relative;
+    top: -60px;
+    left: 205px;
+}
+
+.info p {
+    text-align: center;
+    color: white;
+    font-family: 'Teko', sans-serif;
+    line-height: 15px;
+    font-size: 17px;
+    letter-spacing: 1px;
+    margin-top: -40px;
+}
+
+footer {
+    display: table;
+    float: left;
+    width: 70%;
+    padding-top: 20px;
+    margin: 0 250px 30px 250px;
+
+}
+
+footer h6 {
+    display: inline-block;
+    font-family: 'Teko', sans-serif;
+    font-size: 16px;
+}
+
+footer a {
+    font-family: 'Teko', sans-serif;
+    font-size: 12px;
+}
+
+hr {
+    border-top: 5px solid black;
+    width: 200px;
+    margin-right: 0;
+}
+
+#long {
+    width: 400px;
+}
+    
+.metro, .os, .ow {
+    display: inline-block;
+    margin-right: 25px;
+    height: 150px;
+}
+
+footer ul {
+    display: inline-block;
+    float: left;
+    list-style-type: none;
+    
+}
+
+footer a {
+    text-decoration: none;
+}
+
+.os ul {
+    margin-right: 130px;
+}
+
+.bottom {
+    position: relative;
+    width: 100%;
+    top: 20px;
+    border-top: 2px solid black;
+}
+
+.bottom span {
+    display: inline-block;
+    float: left;
+    font-family: 'Teko', sans-serif;
+    font-size: 12px;
+}
+
+.terms {
+    float: right;
+}
+
+.terms li { 
+    display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
